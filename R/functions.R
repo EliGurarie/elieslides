@@ -37,9 +37,18 @@ pics <- function(file, w=100){
 #' - cex.lab = 1.2
 #'
 #' @param ... additional arguments for par.
+#' @export
 
 
 pars <- function(...){
     par(mar = c(3,3,2,2), bty = "l", mgp = c(1.5,.25,0),
         tck = 0.01, cex.lab = 1.2, ...)
+}
+
+
+# Embed Youtube video
+
+
+vid <- function(video, w = '100%'){
+    cat(paste0('<iframe src="https://www.youtube.com/embed/',video,'?autoplay=1" width = "', w, '"></iframe>'))
 }
