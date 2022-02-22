@@ -50,5 +50,5 @@ pars <- function(...){
 
 
 vid <- function(video, w = '100%'){
-    cat(paste0('<iframe src="https://www.youtube.com/embed/',video,'?autoplay=1" width = "', w, '"></iframe>'))
+    cat(paste0('<iframe src="https://www.youtube.com/embed/',video,'?controls=0" width = "', w, '"></iframe>'))
 }
