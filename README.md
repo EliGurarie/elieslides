@@ -1,6 +1,6 @@
 # Elie Slides
 
-Some convenience functions for making ioslides presentations. 
+Some convenience functions for making ioslides or xaringan presentations. 
 
 To install: 
 
